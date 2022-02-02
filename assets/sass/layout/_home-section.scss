@@ -1,0 +1,22 @@
+.home{
+        background-color: $jelly-bean;
+        height: 100vh;
+    
+    &__h1-container{
+        position: absolute;
+        left:50%;
+        top:9.5vh;
+        transform:translate(-50%);
+        margin-top:150px;
+        text-align: center;
+    }
+
+    &__h1{
+        color:$white;
+        font-weight: 200;
+    }
+
+    &__h1-bold{
+        font-weight:$bold;
+    }
+}

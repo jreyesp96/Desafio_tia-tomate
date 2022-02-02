@@ -1,0 +1,16 @@
+.us{
+    margin:0 auto;
+    text-align: center;
+
+    &__h2{
+        background-color: $jelly-bean;
+        padding:50px 0px;
+        color:$white;
+        font-size:$x-large;
+    }
+    
+    p{
+        width: 385px;
+        margin: 27px auto;
+    }
+}

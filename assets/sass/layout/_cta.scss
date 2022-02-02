@@ -1,0 +1,27 @@
+.cta{
+    background-color: $jelly-bean;
+    padding:50px 0px;
+    margin: 0 auto;
+    text-align: center;
+    color:$white;
+
+    &__h2{
+        font-size: $x-large;
+        font-weight: $bold;
+    }
+
+    &__button{
+        padding: 14px 50px;
+        border-radius: 60px;
+        font-size: $large;
+        background-color: white;
+        border: 0px;
+        font-weight: $bold;
+        color:$granite-gray;
+    }
+
+    &__button:hover{
+        background-color: $gray;
+        color:$white;
+    }
+}
